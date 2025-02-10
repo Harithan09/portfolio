@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.logo {
+  width: 70px;
+  height: 50px;
+}
+.logo:hover {
+  transform: scale(1.1);
+}
+#navbar{
+  height: 120px;
+}
+
+#navItem1,#navItem2, #navItem3, #navItem4{
+  color: #baa634;
+  font-weight: 700;
+  font-size: 30px;
+  font-family: "Gill Sans", sans-serif;
+}
+
+.Home-section-bg-container {
+  background-image: url("https://thumbs.dreamstime.com/b/developer-programmer-woman-coding-software-computer-developer-programmer-woman-coding-software-231060005.jpg");
+  height: 37vh !important;
+  background-size: cover;
+  margin-top: 35px;
+  background-size: cover;
+  background-color: white;
+
+}
+
+
+.Home-heading {
+  color: rgb(235, 231, 231);
+  font-family: "Gill Sans", sans-serif;
+  font-weight: 700;
+  font-size:65px;
+}
+span{
+  color:#baa634;
+}
+
+.social-icons a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 75px;
+  font-size: 55px;
+  margin: 15px 15px 15px 15px;
+  text-decoration: none;
+  background: transparent;
+  border: 3px solid #d1b826;
+  border-radius: 50%;
+  color:#d0b200;
+  transition: 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  transform: scale(1.3) translateY(-5px);
+  color: rgb(63, 59, 59);
+  border: 2px solid #295F98;
+  box-shadow: 0 0 25px #d0b200;
+  background-color: #d0b200;
+  transition: scale(1.2)translateY(-5px);
+}
+
+.custom-button {
+  text-decoration: none;
+  background-color: #b7a434;
+  border: 2px solid #b7a434;
+  width: 300px;
+  height: 90px;
+  border-radius: 16px;
+  margin-right: 10px;
+  margin-top: 15px;
+  
+}
+.custom-button a {
+  color: black;
+  font-size: 36px;
+}
+
+.custom-button:hover {
+  background-color: transparent;
+  color: #d0b200;
+}
+
+.custom-button a:hover {
+  color: #d0b200;
+  background: transparent;
+}
+
+.skills-section {
+  background-color: #f9fbfe;
+  padding: 10px 80px 10px 80px;
+}
+.skills-section-heading{
+  color:#d1b826;
+  font-family:"Gill Sans", sans-serif ;
+  font-size: 40px;
+  font-weight: 700;
+}
+.skills-card{
+   border-radius: 25px;
+   height: 80%;
+}
+.skills-card-title {
+  color: #323f4b;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 35px;
+  font-weight: 500;
+}
+.skills-card-description {
+  color: #272828;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 30px;
+}
+
+.Projects-section {
+  background-color: white;
+  
+}
+.projects-section-heading {
+  color: #183b56;
+  font-family: "Gill Sans", sans-serif;
+  font-weight: 700;
+}
+.projects-card-image {
+  border-radius: 25px;
+}
+.projects-card:hover {
+  background:transparent ;
+  transform: scale(1.03);
+
+}
+.projects-card-title {
+  color: #323f4b;
+  font-family: "Gill Sans", sans-serif;
+  font-weight: 500;
+  margin-top: 24px;
+}
+.projects-item-link {
+  color: #d0b200;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 35px;
+  font-weight: 500;
+}
+.projects-item-card {
+  border-radius: 10px;
+  height:91%;
+}
+
+.contact-section-heading {
+  color: #183b56;
+  font-family: "Gill Sans", sans-serif;
+  font-size:70px;
+  font-weight: 700;
+  
+}
+.contact-form {
+  font-size: 35px;
+  
+}
+
+.footer-section-mail-id {
+  color:#dfc742;
+  font-family: "Gill Sans", sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  margin-top: 20px;
+}
+.footer-description {
+  color:#d0b200;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 20px;
+}
+/* @media(max-width:576px){
+  .Home-section-bg-container{
+    height: 37vh;
+  }
+} */
+
+.label.error {
+  color:red;
+  position:relative;
+  top:3px;
+}
+@media(min-width:992px){
+  #navbar{
+    height: 80px;
+  }
+  #navItem1,#navItem2, #navItem3, #navItem4{
+    font-size: 20px;
+  }
+
+  .skillst {
+    padding-right:6rem;
+    padding-left: 1rem;
+    padding-top:1rem;
+    padding-bottom: 1rem;
+  }
+  .mainhead {
+    padding:10%;
+  }
+
+  .Home-section-bg-container{
+    height: 90vh !important; 
+  }
+  .Home-heading {
+    font-size: 35px;
+  }
+  .social-icons a {
+    width: 55px;
+    height: 55px;
+    font-size: 40px;
+  }
+  .custom-button {
+    width: 200px;
+    height: 50px;
+  }
+  .custom-button a {
+    font-size: 20px;
+  }
+  
+  .skills-section-heading {
+    font-size: 35px;
+  }
+  .skills-card-title{
+    font-size: 20px;
+  }
+  .skills-card-description{
+    font-size: 17px;
+  }
+  .projects-section-heading {
+    font-size: 35px;
+  }
+  .projects-card-image {
+    border-radius: 20px;
+  }
+  .projects-card-title{
+    font-size: 20px;
+  }
+  .projects-item-link {
+    font-size: 16px;
+  }
+  .contact-section-heading {
+    font-size: 35px;
+  }
+  
+.footer-section-mail-id{
+  font-size: 20px;
+}
+.contact-form{
+  font-size: 20px;
+}
+}
