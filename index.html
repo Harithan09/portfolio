@@ -252,7 +252,7 @@
             <div class="mb-3">
               <label for="message" class="form-label">Message</label>
               <textarea class="form-control" id="message" rows="4"></textarea>
-
+              <small class="text-danger d-none" id="messageError">Message is required.</small> 
             </div>
             <button class="custom-button" onclick="validateForm()">Send</button>
           </div>
@@ -287,6 +287,14 @@
       border-radius: 5px;
       text-align: center;
     }
+     .popup-content button {
+    color:black ;
+    background-color: #b7a434;
+    border-radius: 10px;
+    width: 60px;
+    border: 1px solid rgb(45, 44, 44);
+    
+  }
 
     /* .d-none {
     display: none;
